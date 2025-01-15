@@ -1,0 +1,147 @@
+Test1
+
+1.Get the name from given input data. (Note: Don't use direct slicing..)
+Input:
+data1="From nandhini@gmail.com Sat Jan 21 11:24:32.008173"
+data2="From selvakumar@gmail.com Sat Jan 21 11:24:32.008173"
+Output:
+name1 = "nandhini", name2 ="selvakumar"
+
+2.Reverse the 5 digit nos 
+Input:56349
+Output:94365
+
+3.Remove the dupliacet elements from given Input list:
+Input= ["Apple" ,"Mango" , "Pineapple", "Orange", "Apple", "Mango", "Grapes"] 
+Output= ["Apple" ,"Mango" , "Pineapple", "Orange", "Grapes"] 
+
+4.find the occurence and count of vowels in a input string:
+Input= "mathematics"
+Output= {"a" :2, "e":1, "i":1}
+
+5.write a program to find the sum of first 10 nos which is divisible by 3 and 5
+
+6.Find the second Largest & smallest nos from an Input list:
+Input = [45,98,32,19,67,55,90]
+Output: Second Largest No : 90, Second smallest no:32
+
+7.Sort this list:['greeting', 'goodbye', 'thanks', 'about', 'name', 'help', 'createaccount', 'complaint']
+
+8.Find the square of first 10 numbers:
+Output:{1:1,2:4,3:9,4:16,5:25,6:36,7:49,8:64,9:81,10:100}
+
+9.Write a program to bring the output
+Input: [{"id": 47,"name":"sravya", "game":"cricket"},
+{"id": 49,"name":"krishna", "game":"tennis"},
+{"id": 33,"name":"vinothini", "game":"volleyball"},
+{"id": 21,"name":"samuel", "game":"cricket"},
+{"id": 17,"name":"bhuvana", "game":"tennis"}]
+output: {"cricket":[sravya,samuel],"tennis":[krishna,bhuvana],"volleyball":[vinothini]}
+
+
+10.Input  = {'Input.txt': 'Randy', 'Code.py': 'Stan', 'Output.txt': 'Randy'} 
+ output = {'Randy': ['Input.txt', 'Output.txt'], 'Stan': ['Code.py']}
+
+11. Write a program using OOPS concept which should covers all concept of methods and variables..
+
+Test 2
+
+12. Input:a2b3c5 Output:aabbbccccc
+
+13.convert Input sentence into list of words.
+Input:The coding question of Java Programming will help you to crack the coding interview rounds
+Output:["The", "coding", "question", "of", "Java", "Programming", "will" , "help", "you", "to", "crack" , "the", "coding", "interview", "rounds"] 
+
+14.Convert List of values into string:
+Input:["The", "coding", "question", "of", "Java", "Programming", "will" , "help", "you", "to", "crack" , "the", "coding", "interview", "rounds"]
+Output:The coding question of Java Programming will help you to crack the coding interview rounds
+
+15.write a program to print following patterns:
+1.
+*
+**
+***
+****
+*****
+
+2.
+*****
+****
+***
+**
+*
+
+3.
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+4.
+1
+2 3
+4 5 6
+7 8 9 10
+
+5.
+A
+A B
+A B C
+A B C D
+A B C D E
+
+6.
+A 
+B C
+D E F
+G H I J
+
+16.Python Program to Take in a String and Replace Every Blank Space with Hyphen
+Input: python is general purpose programming langauage
+Output: python-is-general-purpose-programming-language
+
+17. strings, list , tuple , set, dictioanry & its inbuilt function samples workout...
+
+18. Remove Adjacent Duplicate characters form a input string
+Input=  bteechhgeeeekkkkssss
+Output =  btechgeks
+
+19.Python Program to Calculate the Number of Words and the Number of Characters Present in a String
+Eg: 'Hello this is btechgeeks'
+Output: word_count = 4, character_count=24
+
+20.Python Program to Remove the First Occurrence of Character in a String
+Remove First Occurence of "s"
+Input: goodmorningthisisbtechgeekspython
+Output: goodmorningthiisbtechgeekspython
+
+21. Find the first Capital & small letter in a given string
+Input:&255amdhfTyennjhv
+Output: First Capital Letter: T, First Small Letter:a
+
+22.Python Program to Find Common Characters between Two Strings
+Given First String = Hello Btechgeeks
+Given Second String = good morning
+Ouptut: Common strings : go
+
+23.Program to Check if a String Contains at least One Number in Python. Consider input as your wish.
+
+24.Python Program to Extract Only Characters from a Given String
+Enter some random string = good morning23this is btechgeeks@19python
+The Given String after extracting only characters = goodmorningthisisbtechgeekspython
+py*th&#on^%in12ter765view
+
+
+25.Python Program to Take in Two Strings and Display the Larger String without Using Built-in Functions
+given first string =btechgeeks
+given second string =python
+
+------------------------------------------------------------
+Part 2
+
+1. File Read and write (Text file, csv file, json file) 
+
+create nested list with n items..
+if n=2 => [[1,2],[3,4],[5,6],[7,8], [9,10], [11,12]]
+if n=3 => [[1,2,3],[4,5,6],[7,8,9],[10,11,12]]
