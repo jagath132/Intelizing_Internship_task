@@ -276,23 +276,7 @@ def display_sen():
     else:
         len(b)<len(a)
         print(b)
-def display_sen():
-    a="btechgeeks"
-    b="python"
-    if len(a)>len(b):
-        print(a)
-    else:
-        len(b)<len(a)
-        print(b)
 
-def display_sen():
-    a="btechgeeks"
-    b="python"
-    if len(a)>len(b):
-        print(a)
-    else:
-        len(b)<len(a)
-        print(b)
 
 # function calling stmt
 if __name__ == "__main__":
