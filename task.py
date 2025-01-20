@@ -265,6 +265,23 @@ def first_occur():
         i += 1
     print("Output:", result_string)
 
+
+# 24.Python Program to Extract Only Characters from a Given String
+# Enter some random string = good morning23this is btechgeeks@19python
+# The Given String after extracting only characters = goodmorningthisisbtechgeekspython
+# py*th&#on^%in12ter765view
+def char_ext():
+    sp_char= ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ' ', '!', '@', '#', '$', '%', '^', '&', '*','(', ')', '_', '+', '-', '=', '{', '}', '[', ']', '|', '\\', ':', ';', '"', "'", '<', '>', ',', '.', '?','/','~','`']
+    sen=input("enter the string: ")
+    new_sen=''
+    print(sp_char)
+    for x in sen:
+        if x not in sp_char:
+            new_sen+=x
+        else:
+            pass
+    print("the new string after removing all sp char: "+new_sen)
+
 # 25.Python Program to Take in Two Strings and Display the Larger String without Using Built-in Functions
 # given first string =btechgeeks
 # given second string =python
@@ -277,6 +294,27 @@ def display_sen():
         len(b)<len(a)
         print(b)
 
+# 1. File Read and write (Text file, csv file, json file) 
+def file_read_writetxt():
+    f = open("file_read_writetxt.txt", "a")
+    f.write("Now the file has more content!,this is text file")
+    f.close()
+    f=open("file_read_writetxt.txt","r")
+    print(f.read())
+    
+def file_read_writecsv():
+    f = open("file_read_writecsv.csv", "a")
+    f.write("Now the file has more content!,this is csv file")
+    f.close()
+    f=open("file_read_writecsv.csv","r")
+    print(f.read())
+
+def file_read_writejson():
+    f = open("file_read_writejson.json", "a")
+    f.write("Now the file has more content!,this is json file")
+    f.close()
+    f=open("file_read_writejson.json","r")
+    print(f.read())
 
 # function calling stmt
 if __name__ == "__main__":
@@ -304,4 +342,8 @@ if __name__ == "__main__":
     # grouped_list()
     # first_occur()
     # remove_adjacent_duplicates()
+    # file_read_writetxt()
+    # file_read_writecsv()
+    # file_read_writejson()
+    char_ext()
     pass
