@@ -1,0 +1,20 @@
+1.  Write a  Python program to handle a ZeroDivisionError exception when dividing a number by zero.
+2.	Write a  Python program that opens a file and handles a FileNotFoundError exception if the file does not exist
+3.	Write a function in python to read the content from a text file "poem.txt" line by line and display the same on screen.
+4.	A text file named "matter.txt" contains some text, which needs to be displayed such that every next character is separated by a symbol "#". Write a function definition for hash_display() in Python that would display the entire content of the file matter.txt in the desired format.
+	Example :
+	If the file matter.txt has the following content stored in it :
+	THE WORLD IS ROUND
+
+	The function hash_display() should display the following content :
+	T#H#E# #W#O#R#L#D# #I#S# #R#O#U#N#D#
+
+5. 	Write a Python program to create a person class. Include attributes  like name, country and date of birth. Implement a method to  determine the person’s age. 
+6.	Create a Bus class that inherits from the Vehicle class.
+7.	Design a BankAccount class in Python with attributes account_holder, balance, and account_number. Implement methods for depositing money, withdrawing money, and checking the balance. Include exception handling to ensure that withdrawal amounts do not exceed the current balance. Write a test case to demonstrate the functionality.
+8.	create a class with constructor.
+9.	create a class with method.
+10.	Write a  Python program to check that a string contains only a certain set of characters (in this case a-z, A-Z and 0-9).
+11.	Write a  Python program that starts each string with a specific number.
+12.	Write a  Python program that creates a generator function that yields cubes of numbers from 1 to n. Accept n from the user.
+13.	Write a  Python program that implements a decorator to retry a function multiple times in case of failure.
