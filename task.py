@@ -318,7 +318,7 @@ def file_read_writejson():
 
 # function calling stmt
 if __name__ == "__main__":
-    name_extraced()
+    # name_extraced()
     # reverse()   
     # vowels()
     # removing_duplicate()
